@@ -1,7 +1,7 @@
 import 'product.dart';
 import 'clothing.dart';
 import 'electronics.dart';
-import 'food.dart';
+import 'food.dart'; 
 
 class ProductConsumer {
   final Product product;
@@ -31,7 +31,7 @@ void main() {
   var consumer2 = ProductConsumer(electronics);
   consumer2.showProduct();
   consumer2.purchaseProduct();
-
+  
   print('\n--- Demo: Food Product ---');
   var food = Food('Chocolate Bar', '2026-03-15', 59.99);
   var consumer3 = ProductConsumer(food);
